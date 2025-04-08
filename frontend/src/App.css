@@ -114,6 +114,7 @@ body {
 .chat-input {
   display: flex;
   padding: 15px;
+  font-size: 20px;
   background: #121212;
   border-top: 1px solid #333;
   align-items: center;
@@ -123,7 +124,7 @@ body {
 .chat-input input {
   flex: 1;
   padding: 12px;
-  font-size: 16px;
+  font-size: 25px;
   border: none;
   border-radius: 8px;
   background: #2e2e3f;
@@ -132,14 +133,17 @@ body {
 
 .chat-input button {
   padding: 12px 20px;
-  font-size: 16px;
+  font-size: 20px;
   background: #4caf50;
   border: none;
   border-radius: 8px;
   color: white;
   cursor: pointer;
 }
-
+.msg-text {
+  padding-left: 5px;
+  font-size: 23px;
+}
 .msg-actions {
   display: flex;
   gap: 6px;
@@ -151,7 +155,8 @@ body {
   border: none;
   cursor: pointer;
   font-size: 16px;
-  color: #ccc;
+  color: #1e1e2f;
+
 }
 
 .typing-indicator {

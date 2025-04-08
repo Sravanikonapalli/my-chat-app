@@ -7,7 +7,7 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 import { FaRegFaceGrinWide } from "react-icons/fa6";
 
 // Initialize WebSocket connection
-const socket = new WebSocket('ws://localhost:8080');
+const socket = new WebSocket('https://my-chat-app-m5ck.onrender.com');
 
 function App() {
   const [username, setUsername] = useState('');
